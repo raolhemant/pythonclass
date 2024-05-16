@@ -1,66 +1,59 @@
-'''
-syntax
-if (condition):
+#arry ma sab datatype same hunu parxa
+#list ma j bhaya ni hu xa
+test = [1,1,2,3,"hemant"]
+print(test)
+print(test[2])
+a = [2,3,4,5,6,1,2]
+b = a[3]
+print(f'ths place of {b} and its type is {type(a)}')
+print(len(a))
+print(a[-1]) #its take value from last
 
-  
+# a = [2,3,3,3,4,5]
+# if (a==0 and a<(len(a)-1)):
+
+#slicing
+print(a[0:3]) #last data print hudain 3 index ko value aaudaina
+print(a[:]) #gives all data 
+print(a[1:]) #its gives entire data
+
+#list methon:
+#1.append (data always store in last)
+student = ['hemant','rawal','alfa']
+print(student)
+student.append('bijay')
+print(student)
+#2.insert
+student.insert(0,'beta')
+print(student)
+
+#delete
+# del student
+# print(student)# delete entire variable 
+
+# del student[1]
+# print(student)
+
+student.pop()
+print(student)
+
+a = student.pop()
+print(a)
+
+#remove
+new = ['slfs','alfa','beta','gama','test','test'] #first ma jo bhetinxa teslai delte garxa 
+new.remove('test')
+print(new)
+
+#clear
+# new.clear()
+# print(new)
 
 
-'''    
-# if (1==1):
-#     print("this is right")
-#     print("this is right")
-#     print("this is right")
-#     print("this is right")
-# else:
-#     print("this is wrong")
+#concat
+new_list = student + new 
+print(new_list)
 
-# if(1==2):
-#     print("this is wrong")
-# elif(1==1):
-#     print("this is right")
-# else:
-#     print("both are wrong")
-
-# temp = 40
-# if(temp>40):
-#     print("hight temp")
-# elif(temp<40):
-#     print("low temp")
-# else:
-#     print("normal temp")
-# #debuger helps to check where the program goes..
-# #nested if
-# a = 10
-# b = 20
-# if (a == 10):
-#     print("this is 10")
-#     if (b > 30):
-#         print("the value is greater than be")
-#     else:
-#         print("this is wrong")
-# else:
-    # print("both is wrong")
-#afno grade ko division nikalne
-
-a= 3.25
-if(a >=0 and a<=4 ):
-    print("this is grade")
-    if(a>=0 and a<=1.6):
-        print("D+")
-    elif(a>=1.7 and a<=2.0):
-        print("C")
-    elif(a>=2.1 and a<2.4):
-        print("C+")
-    elif(a>=2.5 and a<=2.8):
-        print("B")
-    elif(a>=2.9 and a<=3.2):
-        print("B+")
-    elif(a>=3.3 and a<=3.6):
-        print("A")
-    elif(a>=3.7 and a<=4):
-        print("A+")
-    else:
-        print("you are fail")
-else:
-    print("input is wrong")
-
+#extends
+student.extend(new)
+print(student)#we did student in print because student is extend so the value will be given in student 
