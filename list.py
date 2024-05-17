@@ -57,3 +57,5 @@ print(new_list)
 #extends
 student.extend(new)
 print(student)#we did student in print because student is extend so the value will be given in student 
+a = input("what is your name ") 
+print(a)
