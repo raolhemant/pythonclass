@@ -13,5 +13,17 @@ test2 = 22
 print (test)
 
 #invalid variable value
-5test = "alfa"
-$test = "beta"
+#5test = "alfa"
+#$test = "beta"
+
+#
+a = 1
+b = 1
+c = 1
+
+#we can use all value as same with using comma
+a,b,c = 1,2,3
+
+print (a)
+print(b)
+print(c)
