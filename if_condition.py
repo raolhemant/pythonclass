@@ -42,25 +42,33 @@ if (condition):
     # print("both is wrong")
 #afno grade ko division nikalne
 
-a= 3.25
-if(a >=0 and a<=4 ):
-    print("this is grade")
-    if(a>=0 and a<=1.6):
-        print("D+")
-    elif(a>=1.7 and a<=2.0):
-        print("C")
-    elif(a>=2.1 and a<2.4):
-        print("C+")
-    elif(a>=2.5 and a<=2.8):
-        print("B")
-    elif(a>=2.9 and a<=3.2):
-        print("B+")
-    elif(a>=3.3 and a<=3.6):
-        print("A")
-    elif(a>=3.7 and a<=4):
-        print("A+")
-    else:
-        print("you are fail")
-else:
-    print("input is wrong")
+# a= 3.25
+# if(a >=0 and a<=4 ):
+#     print("this is grade")
+#     if(a>=0 and a<=1.6):
+#         print("D+")
+#     elif(a>=1.7 and a<=2.0):
+#         print("C")
+#     elif(a>=2.1 and a<2.4):
+#         print("C+")
+#     elif(a>=2.5 and a<=2.8):
+#         print("B")
+#     elif(a>=2.9 and a<=3.2):
+#         print("B+")
+#     elif(a>=3.3 and a<=3.6):
+#         print("A")
+#     elif(a>=3.7 and a<=4):
+#         print("A+")
+#     else:
+#         print("you are fail")
+# else:
+#     print("input is wrong")
 
+gender = "F"
+if gender =="M":
+    print("MAle")
+else:
+    print("Female")
+
+X = "male" if gender == "M" else "female"
+print(x)
